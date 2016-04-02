@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+@font-face{
+	src: url('../Res/ChopinScript.otf');
+	font-family:ChopinScript;
+}
+body{
+/*    background: #444444 -moz-linear-gradient(top,#444444 0%,#222222 100%);
+    background: #444444 -ms-linear-gradient(top,#444444 0%,#222222 100%);
+    background: #444444 -webkit-linear-gradient(top,#444444 0%,#222222 100%);
+    background: #444444 -o-linear-gradient(top,#444444 0%,#222222 100%);*/
+    background-repeat: repeat;
+    background: url('../Res/bg6.jpg');
+    background-position: center top;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    color: #999999;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+//    text-shadow:2px 2px 4px #000000;
+}
+#head{
+	margin-top: 0px;
+//	position: relative;
+//	top: 0px;
+	font-family: sans-serif;
+	color: #eaeaea;
+	background-color: #111111;
+	text-shadow:2px 2px 4px #000000;
+	opacity: 0.9;
+	overflow: hidden;
+//	padding-bottom: -10px;
+}
+#photo{
+	left: 200px;
+	margin: 0 auto;
+	position: relative;
+	font-family:ChopinScript;
+    font-size: 40px;
+    top: -10px;
+}
+#navul{
+	list-style: none;
+//	position: relative;
+
+	text-align: left;
+}
+/*#navul ul{
+	position: absolute;
+	z-index: 1000;
+}*/
+.navlist a{
+	position: relative;
+	padding: 8px;
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	z-index: 1000;
+}
+.navlist a:link,.navlist a:visited{
+	background-color: #111111;
+	font-family: sans-serif;
+	color: #999999;
+}
+.navlist a:hover,.navlist a:active {
+	background-color: #444444;
+	font-family: sans-serif;
+	color: #999999;
+	display: block;
+}
+.navlist{
+	margin-top: 10px;
+	background-color: #111111;
+//	margin: 0;
+	display: block;
+//	position: relative;
+	text-decoration: none;
+	float: left;
+}
+#cat{
+	max-width: 104px;
+}
+.navlist ul{
+	width: auto;
+	list-style-type: none;
+	display: none;
+	padding: 0;
+	background-color: #222222;
+}
+.navlist:hover ul{
+	position: absolute;
+	background-color: #222222;
+	display: block;
+	z-index: 1000;
+	
+}
+/*.navlist:hover li{
+	float: none;
+}*/
+.navlist ul li a{
+	text-decoration: none;
+	color:#999999;
+	background-color: #222222;
+	white-space:nowrap;
+	z-index: 1000;
+}
+.navlist ul li{
+	position: relative;
+	background-color: #222222;
+	font-family: sans-serif;
+	color: #999999;
+	z-index: 1000;
+}
+.navlist ul li:hover,.navlist ul li:active,.navlist ul li:hover a{
+	background-color: #444444;
+	font-family: sans-serif;
+	color: #999999;
+}

@@ -1,0 +1,40 @@
+body{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.legendtext{
+	font-weight: bold;
+	border: 1px solid #eaeaea;
+	padding: 5px;
+	color: #eaeaea;
+	text-decoration: underline;
+}
+#deletethumb{
+	position: absolute;
+	background-color: #111111;
+	width: 150px;
+	height: 100px;
+	left:800px;
+	top:20px;
+}
+#editthumb{
+	position: absolute;
+	background-color: #111111;
+	width: 150px;
+	height: 100px;
+	left:800px;
+	top:60px;
+}
+#delete {
+	position: relative;
+}
+#edit {
+	position: relative;
+}
+fieldset {
+	position: relative;
+	padding: 25px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}

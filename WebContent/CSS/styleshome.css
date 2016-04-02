@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+/*#main{
+	position: static;
+	z-index: -1;
+    margin-top: 25px;
+    margin-bottom: 75px;
+ //   animation: fade 5s infinite;
+}
+@keyframes fadeout{
+	0%  {opacity: 1.0;}
+    100%{opacity: 0.0;}
+}*/
+@keyframes fade{
+	0%  {opacity: 0.0;z-index: -1;}
+	12.5% {opacity: 1.0;z-index: -1;}
+	50% {opacity: 1.0;z-index: -1;}
+    87.5% {opacity: 1.0;z-index: -1;}
+    100%{opacity: 0.0;z-index: -1;}
+}
+/*@keyframes fadein{
+    0%  {opacity: 0.0;}
+    100%{opacity: 1.0;}
+}*/
+#ulog{
+    font-size: 10px;
+    position: relative;
+    top: -40px;
+    left: 60%;
+}
+input, textarea {
+    color: #dddddd;
+    padding : 1px;
+    margin-right: 5px;
+    width   : 100px;
+}
+#submithead {
+    font-size: 12px;
+    position: relative;
+    top: -23px;
+    left: 350px;
+    width: 75px;
+    background-color: #2277CC;
+    color: #FFFFFF;
+    border-color: #2277EE;
+}
